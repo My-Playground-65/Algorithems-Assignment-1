@@ -31,6 +31,8 @@ public class Algo9 {
 
                     if(str2.equals(str1)){
                         System.out.println("Word " + str1 + " is a palindrome");
+                    }else{
+                        System.out.println("Word " + str1 + " is not a palindrome");
                     }
                     isValid = false;
                 }
