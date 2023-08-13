@@ -18,8 +18,9 @@ public class Algo6 {
         String[] arrOfStr = str.split("[^A-Za-z]+");
     
         for (int i = arrOfStr.length - 1; i >= 0 ; i--) {
-            System.out.println(arrOfStr[i]);
+            System.out.print(arrOfStr[i] + " ");
         }
+        System.out.println();
         
         
     }
